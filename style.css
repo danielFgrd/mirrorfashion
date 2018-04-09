@@ -1,0 +1,119 @@
+body{
+	
+	/*background-color = "gold"; plano cor do fundo*/
+	color: #333333; /*cor da fonte*/
+	font-family : "Lucida Sans	Unicode", "Lucida Grande", sans-serif;
+	/*formatação da borda*/
+	/*border-color : black;/*corda borda*/
+	/*border-width : 1px;/*largura da borda*/
+	/*border-style : solid;/*estilo da borda*/	
+	/*fim da formataçãos*/
+	/*server para definir o espaçamento entre a borda do elemento e o começo do conteudo
+	padding-top : 
+	padding-right :
+	padding-bottom :
+	padding-left :
+	*/
+	/* server para difinir o espaçamento entre os limites da página e o elemento
+	margin-top :
+	margin-right :
+	margin-bottom :
+	margin-left :
+	*/
+	/*truque para centralizar tag body*/
+	margin-right : auto;
+	margin-left : auto;
+	width : 940px;
+	/*fim do truque*/
+}
+p{
+
+	/* Formatação da cor e do fundo da fonte*/
+	/*background-color : /*cor de fundo*/
+	color : black;/*cor do elemento*/
+	/* fim da formatação*/
+	
+	/*Formatação da fonte*/
+	/*font-style : right;  /*estilo do tipo italico, negrito, ou normal*/
+	font-family : "Arial", "Helvetica", sans-serif;/*fonte que implementará o texto*/
+	text-align : justify;
+	
+	/*line-height : 15px; altura da linha */
+	/*letter-spacing : 3px; espaço entre as letra */
+	/*word-spacing : 5px; espaço entre as palavras */
+	text-indent : 15px; /*edentação da primeira linha do texto*/
+	/*fim formatação*/
+	padding : 0 45px;
+	
+
+}
+
+h1{
+	font-family : "Arial Black", "Arial", sans-serif;
+
+}
+h2{
+	margin-top : 30px;
+	border-bottom : 1px solid #333333;
+}
+figure{
+	background-color : #F2EDED;
+	border-width : 1px;
+	border-color : #ccc;
+	border-style : solid;
+	text-align : center;
+	padding : 15px;
+	margin : 0 30px;
+}
+figcaption{
+	font-style : italic;
+	margin-top : 10px;
+}
+#centroDeDistribuicao{
+	margin-right: auto;
+	margin-left: auto;
+	width : 550px;
+}
+#rodape{
+	border-top : 1px solid #333;
+	color : #777;
+	margin : 30px 0;
+	padding ; 30px 0;
+}
+#rodape img{
+	margin-right : 30px;
+	vertical-align : middle;
+	width : 94px;	
+}
+#familiaPelho{
+	float : right;
+	margin : 0 0 30px 30px;
+}
+#tituloPrincipal{
+	font-family : "Arial Black", "Arial", sans-serif;
+	background-image: url(img/sobre-background.jpg);/*imagem de fundo de qualquer elemento*/
+	border-width : 1px;
+	border-style : solid;
+	border-color : #333;
+	padding : 10px;
+}
+.menuOpicoes{
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
