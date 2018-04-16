@@ -1,0 +1,8 @@
+1# Para testar o site, primeiro inicie o servidor Apache e importe o código sql do diretório, "scipts-banco".
+2#Logo depois copie tudo para a pasta 'WWW' caso tenha O 'WAMPP' instalado. Caso use o 'XAMPP' copie a pasta 'mirrorfashion' para o 'HTDOCS'.
+3#Pode ser nescessário trocar a o endereço do servidor para poder execultar o site com êxito, fala isso no arquivo, 'conexao.php'
+
+
+	#######################	NOTAS ####################
+Sistema web em andamento, sujeito a atualizações que serãm implemendadas em CSS, JavaScript e HTML, usando framework's como Bootstrap, jQuery.
+
