@@ -1,6 +1,7 @@
 .container{
   width: 96%;
 }
+
 header h1{
   text-align: center;
 }
@@ -39,11 +40,15 @@ header h1 img{
   width: 100%;
 }
 .banner-rotativo{
+  clear: left;
   position: relative;
-  width: auto;
+  width: 100%;
   height: auto;
   margin : 5px;
   padding: 5px;
+}
+.banner-rotativo img{
+  width: 100%;
 }
 .busca input[type="search"]{
   width: 90%;

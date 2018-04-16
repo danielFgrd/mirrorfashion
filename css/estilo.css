@@ -1,7 +1,9 @@
 body{
 	position: absolute;
+	width: 980px;
+	margin: 0;
 	color :  #333333;
-	font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 .sacola{
 	background: url(../img/sacola.png) no-repeat top right;
@@ -40,9 +42,7 @@ body{
 	margin : 0 auto;
 	width: 940px;
 }
-.container img{
-	margin-left: 5px;
-}
+
 .logotipo{
 	position : relative;
 	top : 3px;
@@ -106,6 +106,9 @@ body{
 .container{
 	margin-bottom : 10px;
 }
+.painel h2{
+	font-family: 'Bad Script', sans-serif;
+}
 .painel h2:before{
 	content : '\2756';
 	padding-right : 5px;
@@ -116,10 +119,21 @@ body{
 .painel{
 	position : relative;
 	float : left;
-	width : 445px;
+	width : 45%;
 	margin : 10px;
 	padding : 10px;
 }
+
+.painel li{
+	width: 30%;
+}
+
+.painel img{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
 .novidades {
 	position : relative;
 	/* background-color: #f5dcdc; */
@@ -132,10 +146,68 @@ body{
 	/* background-color : #dcdcf5; */
 	background: linear-gradient(#dcdcf5, #bebef4);
 }
-@media (max-width: 990px) {
-	.painel{
+figure img{
+	width: 100%;
+}
+
+@media (max-width: 787px){
+	body{
+		position: absolute;
+		width: 100%;
+	}
+	.localisacao-mapa{
+		width: 100%;
+	}
+	.localisacao-mapa{
+		display: inline-block;
+		width: 100%;
+
+	}
+	.localisacao-mapa{
+		display: inline;
+		position: relative;
+		display: inline-block;
+		padding: : 5px;
+		width: 100%;
+	}
+
+	.img figure,
+	.img figcaption,
+	.img img{
+		/* display: none; */
+		position: inherit;
+		margin: 5%;
+		border: 0;
+		padding: 0;
+		width: 100%;
+		height: auto;
 		float: left;
 	}
+	.mapa iframe{
+		/* display: none; */
+		position: relative;
+		left: 0;
+		width: 2em;
+		height: 1em;
+
+		margin: inherit;
+		float: left;
+		clear: left;
+	}
+	.menu-opicoes{
+			position: static;
+	}
+	.mais-vendidos{
+		clear: left;
+	}
+	.banner-rotativo,
+	.painel{
+
+		margin: 5px 0;
+		float: left;
+		width: 100%;
+	}
+
 	.banner-rotativo,
 	.container-destaque,
 	.painel{
@@ -143,11 +215,11 @@ body{
 		margin: 5px 10px;
 	}
 
-	/* .menu-departamento nav ul{
+	 .menu-departamento nav ul{
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 		column-count: 2;
-	} */
+	}
 
 	.painel li{
 		width: 24%;
@@ -158,18 +230,14 @@ body{
 		width: 100%;
 	}
 }
-@media (max-width: 787px){
-	.menu-opicoes{
-			position: static;
-	}
-}
+
 .painel{
 	position : relative;
 }
 .painel li{
 	display : inline-block;
 	vertical-align : top;
-	width 140px;
+	width 30%px;
 
 	margin : 2px;
 	padding-bottom : 10px;
@@ -220,6 +288,7 @@ footer {
 }
 footer .container{
 	position : relative;
+	width: 100%;
 
 }
 footer .container img{
@@ -251,10 +320,11 @@ footer .container img{
 	right : 0;
 	top : 12px;
 }
-.containerSobreNos :not(p) + p:first-line{
+
+/* .containerSobreNos :not(p) + p:first-line{
 	font-family : small-caps;
 
-}
+} */
 .containerSobreNos a{
 	color : #333;
 
@@ -308,12 +378,39 @@ h1 + p{
 	font-style : italic;
 	margin-top : 10px;
 }
-#centroDeDistribuicao{
-	margin-right: auto;
-	margin-left: auto;
-	width : 550px;
+iframe{
+	position: relative;
+	width: 70%;
+	left: 15%;
 }
-
+.localisacao-mapa{
+	position: relative;
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 10px;
+	position: relative;
+	width: 97%;
+	border: solid 0.2em;
+	border-color: #ccc;
+clear: right;
+}
+.img{
+	width: 50%;
+	float: left;
+}
+.img img{
+	width: 100%;
+}
+.mapa iframe{
+	position: relative;
+	top: 1em;
+	left: -1.5em;
+	width: 23em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
 #familiaPelho{
 	float : right;
 }
@@ -331,9 +428,7 @@ em{
 	border-radius : 5px;
 	box-shadow : -8px 8px 10px silver;
 }
-.painel{
-	/*box-shadow : inset 1px 1px 10px;	*/
-}
+
 .painel h2{
 	text-shadow : -3px 3px 3px silver;
 }
@@ -341,17 +436,13 @@ em{
 .banner-rotativo {
 	float : right;
 	background-color : #333;
-	width : auto;
+	width : 670px;
 	height : auto;
 	padding : 10px;
-	margin-right : 10px;
+
 
 }
-@media (max-width: 990px){
-	.banner-rotativo{
-		float: left;
-	}
-}
+
 
 .banner-rotativo figcaption{
 	position : relative;
@@ -394,4 +485,55 @@ p:first-letter{
 }
 .menu-departamento ul ul li:hover a{
 	color : white;
+}
+.painel button{
+	position: relative;
+	bottom: 10px;
+
+	display: none;
+	float: right;
+	margin: 10px;
+	padding: 10px;
+
+	background-color: #333;
+
+	border: 0;
+	border-radius: 4px;
+	box-shadow: 1px 1px 30px rgba(30,30,30,0.5);
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	text-shadow: 1px 0 1px black;
+	transition: all 0.3s;
+}
+.painel button:hover{
+	background-color: #393939;
+	box-shadow: 1px 0 20px rgba(200,200,120,0.9);
+}
+.painel button:after{
+	content: "";
+	display:block;
+	height: 0;
+	width: 0;
+	/* ############# */
+	/* TRIANGULO */
+	border-top: 10px solid;
+	color: #333;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	/* POSIÇÃO */
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	transition: all 0.3s;
+}
+.painel-compacto li:nth-child(n+7){
+	background-color: red;
+ 	display: none;
+}
+.painel-compacto button{
+	position: relative;
+	display: block;
+	right: 0;
 }
